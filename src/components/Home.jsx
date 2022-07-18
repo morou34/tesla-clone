@@ -6,16 +6,16 @@ const Home = () => {
   return (
     <Container>
       <Section 
-        title='Model 3'
+        title='Model S'
         description='Order Online for Touchless Delivery'
-        backgroundImg='model-3.jpg'
+        backgroundImg='model-s.jpg'
         leftBtnText='Custom Order'
         rightBtnText='Existing Invertory'
       />  
       <Section 
-        title='Model S'
+        title='Model 3'
         description='Order Online for Touchless Delivery'
-        backgroundImg='model-s.jpg'
+        backgroundImg='model-3.jpg'
         leftBtnText='Custom Order'
         rightBtnText='Existing Invertory'
       />       
