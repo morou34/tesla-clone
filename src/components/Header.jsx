@@ -11,21 +11,21 @@ const Header = () => {
 
   return (
     <Container>
-      <a>
+      <a href='/#'>
         <img src='/images/logo.svg' alt=''/>
       </a>
 
       <Menu>
         {
           cars && cars.map((car, index) => (
-            <a key={index} href='#'>{car}</a>
+            <a key={index} href='/#'>{car}</a>
           ))
         }
       </Menu>
 
       <RightMenu>
-        <a href='#'>Shop</a>
-        <a href='#'>Account</a>
+        <a href='/#'>Shop</a>
+        <a href='/#'>Account</a>
         <CustomMenu onClick={() => setNav(true)}/>
       </RightMenu>
 
@@ -35,20 +35,19 @@ const Header = () => {
         </CloseWrap>
         {
           cars && cars.map((car, index) => (
-            <li key={index}><a href='#'>{car}</a></li>
+            <li key={index}><a href='/#'>{car}</a></li>
           ))
         }
-        <li><a href='#'>Model S</a></li>
-        <li><a href='#'>Existing Inventory</a></li>
-        <li><a href='#'>Used Inventory</a></li>
-        <li><a href='#'>Test Drive</a></li>
-        <li><a href='#'>Insurance</a></li>
-        <li><a href='#'>Charging</a></li>
-        <li><a href='#'>Utilities</a></li>
-        <li><a href='#'>Support</a></li>
-        <li><a href='#'>Relations</a></li>
-        <li><a href='#'>Shop</a></li>
-        <li><a href='#'>Account</a></li>
+        <li><a href='/#'>Existing Inventory</a></li>
+        <li><a href='/#'>Used Inventory</a></li>
+        <li><a href='/#'>Test Drive</a></li>
+        <li><a href='/#'>Insurance</a></li>
+        <li><a href='/#'>Charging</a></li>
+        <li><a href='/#'>Utilities</a></li>
+        <li><a href='/#'>Support</a></li>
+        <li><a href='/#'>Relations</a></li>
+        <li><a href='/#'>Shop</a></li>
+        <li><a href='/#'>Account</a></li>
       </BurgerNav>
 
     </Container>
