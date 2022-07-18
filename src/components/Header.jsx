@@ -84,6 +84,10 @@ const Menu = styled.div`
     flex-wrap: nowrap;
   }
 
+  a:hover{
+    text-decoration: underline;
+  }
+
   @media(max-width: 768px) {display: none}
 `
 
@@ -94,6 +98,9 @@ const RightMenu = styled.div`
     font-weight: 600;
     text-transform: uppercase;
     margin-right: 10px;
+  }
+  a:hover{
+    text-decoration: underline;
   }
 `
 const CustomMenu = styled(MenuIcon)` 
